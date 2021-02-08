@@ -1,0 +1,60 @@
+@import "colors";
+
+.left-panel-component {
+  width: 280px;
+  background-color: $color-nav;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  padding-top: 80px;
+  bottom: 0;
+  z-index: 1;
+}
+
+.left-panel-menu {
+  display: block;
+  color: white;
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    font-size: 22px;
+    cursor: pointer;
+    padding-left: 0;
+
+    a {
+      padding: 30px 10px 30px 30px;
+      display: flex;
+      align-items: center;
+      border-left: 5px solid transparent;
+
+      text-decoration: none;
+
+      span {
+        height: 40px;
+        color: white;
+        font-size: 25px;
+      }
+
+      img {
+        margin-left: auto;
+        height: 40px;
+        display: none;
+      }
+
+      &.active-link {
+        border-left: 5px solid #E58A20;
+        font-weight: bold;
+
+        img {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.panel-padding {
+  padding-left: 280px;
+}
+

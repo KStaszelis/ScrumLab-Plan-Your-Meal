@@ -1,0 +1,49 @@
+@import "colors";
+
+.box {
+  margin-top: 10px;
+  background-color: #FFFFFA;
+  margin-left: 1rem;
+  max-width: 100vw;
+  height: 629px;
+  border: 1px dashed $color-nav;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  h1{
+    color: $color-nav;
+
+
+  }
+  h2, h3, h4, p {
+    color: $color-nav;
+  }
+ }
+
+.dash-message {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+
+}
+.dash-input {
+  margin-left: 0;
+  margin-bottom: 10px;
+  border: 1px solid $color-table;
+  background-color: $color-background;
+  font-weight: bold;
+  padding: 6px 10px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: normal;
+  width: 300px;
+  height: 30px;
+  cursor: pointer;
+
+}
+.button-dash {
+  margin-left: 3rem;
+}

@@ -1,0 +1,28 @@
+@import "colors";
+.author-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  height: 500px;
+}
+.author-image {
+  width: 30vw;
+  margin: 3rem;
+}
+.author-internal-container {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.author-description {
+  margin-top: 1rem;
+}
+
+.author-name {
+  color: #A1A194;
+}

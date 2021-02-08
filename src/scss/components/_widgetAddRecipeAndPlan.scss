@@ -1,0 +1,45 @@
+@import "colors";
+.widget-container {
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5vh 25vw;
+
+
+}
+.add-recipe {
+  background-image: url("/images/dodaj_przepis.jpg");
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid gray;
+  border-radius: 10%;
+  cursor: pointer;
+
+}
+.add-recipe:focus {
+  border: darkgrey;
+  border-radius: 10%;
+}
+.add-plan {
+  background-image: url("/images/dodaj_plan.jpg");
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid gray;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.adding-popup {
+
+  padding: 5px;
+  left: 50px;
+  top: 50px;
+  margin-top: 100px
+}
+

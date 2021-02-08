@@ -1,0 +1,181 @@
+@import "colors";
+
+
+
+.box-recipe {
+  margin-top: 10px;
+  background-color: #FFFFFA;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: 629px;
+  min-width: 900px;
+  border: 1px dashed $color-nav;
+
+    h2 {
+      color: $color-table;
+      font-size: 1.4rem;
+      font-weight: normal;
+    }
+    h3{
+      color: $color-button;
+      font-size: 1.5rem;
+    }
+}
+
+.header-recipe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.hr-recipe {
+  border-bottom: 1px solid $color-table;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button-recipe-header {
+
+border-radius: 0px;
+border-color: rgb(221, 221, 221);
+background-color: rgb(255, 102, 0);
+color: rgb(255, 255, 250);
+font-weight: bold;
+padding: 6px 10px;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+background-size: cover;
+border-width: 0px;
+border-style: solid;
+width: 148px;
+height: 33px;
+justify-content: center;
+align-items: center;
+  cursor: pointer;
+}
+.text-recipe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-recipe {
+  border: 1px solid $color-table;
+  margin: 10px;
+  width: 80%;
+  height: 40px;
+}
+.input-recipe-title {
+  border: 1px solid $color-table;
+  height: 25px;
+  width: 70%;
+  margin: 2rem;
+}
+.input-recipe-description {
+  border: 1px solid $color-table;
+  height: 25px;
+  width: 70%;
+  margin: 2rem;
+
+}
+.add-ingredient {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.columns {
+  column-count: 2;
+}
+p {
+  font-size: 24px;
+
+  color:$color-table
+}
+
+.button-small-plus {
+  width:35px;
+  height: 35px;
+  
+}
+
+.add-instruction {
+  background-image: url(/images/plus-square-solid.svg);
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  background-color: #FFFFFA;
+}
+
+.edit {
+  width: 20px;
+  height: 20px;
+  font-weight: lighter;
+}
+.list-recipe {
+  //list-style: decimal-leading-zero;
+  //display: flex;
+  justify-content: space-between;
+
+}
+.singleLine {
+  display: flex;
+  justify-content: space-between;
+}
+.list-recipe-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list-recipe-ingridients {
+  display: flex;
+  justify-content: space-between;
+
+}
+.scroll {
+  overflow: scroll;
+  color: $color-header;
+  padding: 2rem;
+  padding-bottom: 9rem;
+}
+.edit-icon {
+  background-image: url(/images/edit-solid.svg);
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+  background-color: #FFFFFA;
+}
+.trash-icon {
+  background-image: url(/images/trash-alt-solid.svg);
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+  background-color: #FFFFFA;
+}
+
+.input-recipe-edit {
+  border: 1px solid $color-table;
+  margin: 5px;
+  width: 350px;
+  height: 30px;
+}
+
+.add-instruction-edit {
+  background-image: url(/images/plus-square-solid.svg);
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  background-color: #FFFFFA;
+  margin: 5px;
+}
+

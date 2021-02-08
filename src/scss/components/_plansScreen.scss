@@ -1,0 +1,26 @@
+@import "colors";
+
+.WeekNumber { grid-area: WeekNumber;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: $color-header;
+}
+
+.grid-container-plans {
+  display: grid;
+  height: 629px;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
+  grid-template-rows: 0.2fr 1.5fr;
+  gap: 0px 0px;
+
+  color: $color-table;
+  grid-template-areas:
+          "ID Nazwa Opis WeekNumber Akcje"
+          "ID-content Nazwa-content Opis-content WeekNumber-content Akcje-content";
+}
+
+.WeekNumber-content { grid-area: WeekNumber-content;  }

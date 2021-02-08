@@ -1,0 +1,233 @@
+{
+  "user": {},
+  "recipes": [
+    {
+      "name": "zupa szczawiowa",
+      "description": "Pyszna zupa szczawiowa",
+      "steps": [
+        "wlej wodę do garnka"
+      ],
+      "ingredients": [
+        "szczaw"
+      ],
+      "id": 2
+    },
+    {
+      "name": "zupa ogórkowa",
+      "description": "test",
+      "steps": [
+        "wlej wodę do garnka"
+      ],
+      "ingredients": [
+        "ogórki"
+      ],
+      "id": 3
+    },
+    {
+      "name": "krupnik",
+      "description": "opis krupniku",
+      "steps": [
+        "wlej wodę"
+      ],
+      "ingredients": [
+        "kasza"
+      ],
+      "id": 4
+    },
+    {
+      "name": "Zupa pomidorowa",
+      "description": "Pyszna zupa pomidorowa z całych pomidorów",
+      "steps": [
+        "Wlać wodę do garnka",
+        "Umyć pomidory",
+        "Pokroić pomidory"
+      ],
+      "ingredients": [
+        "1kg pomidorów",
+        "2l wody",
+        "sól"
+      ],
+      "id": 5
+    },
+    {
+      "name": "Pasta jajeczna",
+      "description": "Najlepsza do kanapek",
+      "steps": [
+        "Posiekać drobno jajka na twardo"
+      ],
+      "ingredients": [
+        "jajka",
+        "pieprz",
+        "sól"
+      ],
+      "id": 6
+    }
+  ],
+  "schedules": [
+    {
+      "id": 1,
+      "name": "Wegetariański tydzień",
+      "description": "Długi opis tygodnia bez mięsa.",
+      "weekNumber": 1,
+      "monday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tuesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "wednesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "thrusday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "friday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "satruday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sunday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Nowy plan",
+      "description": "Opis nowego planu",
+      "weekNumber": "2",
+      "monday": [
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie"
+      ],
+      "tuesday": [
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie"
+      ],
+      "wednesday": [
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie"
+      ],
+      "thrusday": [
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie"
+      ],
+      "friday": [
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie"
+      ],
+      "satruday": [
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie"
+      ],
+      "sunday": [
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie"
+      ],
+      "id": 2
+    },
+    {
+      "name": "plan z wybranymi pozycjami",
+      "description": "test3",
+      "weekNumber": "4",
+      "monday": [
+        "1",
+        "Jedzenie",
+        "3",
+        "Jedzenie",
+        "Jedzenie"
+      ],
+      "tuesday": [
+        "4",
+        "2",
+        "1",
+        "5",
+        "1"
+      ],
+      "wednesday": [
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie"
+      ],
+      "thrusday": [
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie"
+      ],
+      "friday": [
+        "3",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie"
+      ],
+      "satruday": [
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie"
+      ],
+      "sunday": [
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie",
+        "Jedzenie"
+      ],
+      "id": 3
+    }
+  ]
+}

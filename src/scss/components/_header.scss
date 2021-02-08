@@ -1,0 +1,54 @@
+@import "colors";
+
+.page-header {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  height: 80px;
+  padding: 1.25rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-header;
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  z-index: 10;
+  position: sticky;
+}
+
+.logo {
+    font-family: 'Charmonman', cursive;
+    text-decoration: none;
+
+
+    span {
+      color: $color-logo;
+    }
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+  flex-direction: row;
+}
+
+.nav-menu li {
+  margin-left: 40px;
+
+:link {
+  text-decoration: none;
+}
+
+  :hover {
+    text-decoration: underline;
+  }
+
+}
+
+li span {
+  color: $color-logo;
+  text-decoration: none;
+}

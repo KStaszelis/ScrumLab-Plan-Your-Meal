@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  text-decoration: none;
+  outline: 0;
+}
+
+.container {
+  margin-left: 1rem;
+  max-width: 1069px;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.grid{
+  background: #FFFFFA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 3em;
+  border: 1px dashed  #969b9a;
+  margin-top: 20px;
+  min-height: 350px;
+}
+
+
+.title{
+  color: #FF6600;
+  text-align: center;
+  font-size:2rem;
+  border-bottom: 1px solid  #969b9a;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.day-names{
+  display: flex;
+  align-items: center;
+  color: #5B605F;
+  width: 90%;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.day-meal{
+  border-bottom: 1px solid  #969b9a;
+  color: #969b9a;
+  font-size: 1.5rem;
+  padding: 14px
+;
+}
+
+.week{
+  width: calc(100% / 7);
+  font-size: 2rem;
+}
+
+.btn{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-left{
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #FF6600;
+  display: flex;
+  align-items: center;
+}
+.btn-right{
+  margin-top: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #FF6600;
+  display: flex;
+  align-items: center;
+}
+
+.day-name{
+  border-bottom: 1px solid #969b9a;
+  font-size: 18px;
+  color: #5B605F;
+}

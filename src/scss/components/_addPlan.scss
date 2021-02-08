@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  text-decoration: none;
+  outline: 0;
+}
+
+.container-add-plan{
+
+}
+
+.grid-add-plan{
+
+}
+
+.add-plan-button {
+  color: #FFFFFA;
+  background-color: #FF6600;
+  font-weight: bold;
+  padding: 2px;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  border-width: 0px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.add-plan-wrapper{
+  width: 100%;
+}
+
+.weekdays{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.weekdays .weekday{
+  width: calc(100% / 6);
+
+}
+
+.week-meal{
+  display: flex;
+  border-top: 1px solid #969b9a;
+}
+
+.week-meal div{
+  width: calc(100% / 6);
+  padding: 10px;
+}
+
+.week-meal select{
+  width: 100%;
+  border: 1px solid #969b9a;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.meal-upper-name{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper-add-plan{
+  width: 100%;
+}
+
+.element-add-plan{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.element-add-plan.short-element{
+  justify-content: flex-start;
+}
+
+.title-add-plan{
+  width: 100%;
+}
+
+.first-input-add-plan{
+  width: 700px;
+}
+
+.second-element-add-plan{
+  width: 700px;
+}
+
+.third-element-add-plan{
+ width: 70px;
+}
+
+.week-number-add-plan{
+  width: 25%;
+}
+
+.grid-add-plan-with{
+  padding: 60px;
+
+}
+
+.name-element-add-plan{
+  font-size: 20px;
+}

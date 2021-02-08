@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-image: url("/images/background_image.png");
+  background-repeat: repeat;
+  width: auto;
+}
+h3 {
+  font-size: 2.5rem;
+}
+p {
+  font-size: 1.7rem;
+}
+
+@import "./components/colors";
+@import "./components/header";
+@import "./components/carousel";
+
+@import "./components/aboutAuthor";
+@import "./components/pageFooter";
+
+@import "./components/widgetAddRecipeAndPlan";
+
+
+@import "./components/callToAction";
+
+@import "./components/form";
+
+@import "./components/inProgress";
+@import "./components/headerApp";
+@import "./components/leftPanel";
+@import "./components/dashboard_firstEntry";
+
+@import "./components/notificationWidget";
+
+@import "./components/addNewRecipe";
+@import "./components/Plan";
+@import "./components/RecipesView";
+@import "./components/plansScreen";
+
+
+

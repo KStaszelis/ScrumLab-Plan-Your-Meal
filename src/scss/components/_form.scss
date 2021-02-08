@@ -1,0 +1,30 @@
+@import "colors";
+
+.form-section {
+  display: flex;
+  background-color: $color-nav;
+  height: 250px;
+  padding: 1.25rem 3rem;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+h3 {
+  color: #FFFFFA;
+
+}
+
+input {
+  background-color: $color-background;
+  font-weight: bold;
+  padding: 6px 10px;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  border-width: 0px;
+  border-style: solid;
+  width: 218px;
+  height: 55px;
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+@import "colors";
+.inProgress-section {
+
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  height: 700px;
+
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: $color-background-grey;
+  color: $color-header;
+
+}
+
+.h3-grey {
+  color: $color-header;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.icon {
+
+  height: fit-content;
+  width: fit-content;
+  color: $color-table;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.bar {
+  padding: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+
+}

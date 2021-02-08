@@ -1,0 +1,98 @@
+@import "colors";
+
+.grid-container {
+  display: grid;
+  width:100vw;
+  height: 629px;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr;
+  gap: 0px 0px;
+
+  color: $color-table;
+  grid-template-areas:
+          "ID Nazwa Opis Opis Akcje"
+          "ID-content Nazwa-content Opis-content Opis-content Akcje-content";
+}
+
+
+
+.li-recipeView {
+  display: flex;
+  justify-content: center;
+
+  height: 70px;
+  list-style: none;
+  align-items: center;
+}
+
+.ID { grid-area: ID;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: $color-header;
+
+}
+
+.Nazwa {
+  grid-area: Nazwa;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: $color-header;
+
+}
+
+.Opis { grid-area: Opis;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: $color-header;
+}
+
+
+
+.Akcje { grid-area: Akcje;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: $color-header;
+}
+.hr-recipeView {
+  border-bottom: 3px solid $color-table;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+}
+.ID-content { grid-area: ID-content;
+
+}
+
+.Nazwa-content { grid-area: Nazwa-content;  }
+
+.Opis-content { grid-area: Opis-content;  }
+
+.Akcje-content { grid-area: Akcje-content; }
+
+.action-button-space {
+ display: flex;
+  justify-content: space-around;
+}
+.edit-icon-view {
+  margin: 10px;
+}
+
+.trash-icon-view {
+  margin:10px
+}

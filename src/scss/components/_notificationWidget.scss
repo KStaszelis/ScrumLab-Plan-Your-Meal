@@ -1,0 +1,77 @@
+@import "colors";
+.n-w-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 50vw;
+  background-color: white;
+  padding-left: 20px;
+  margin-left: 13rem;
+  margin-bottom: 3rem;
+}
+.helping-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-circle-icon {
+  width: 40px;
+  height: 40px;
+  fill: $color-info;
+}
+.info-content {
+  margin-right: 70px;
+
+}
+.n-w-internal-container {
+  display: flex;
+  align-items: flex-start;
+  width: 40px;
+  height: 40px;
+}
+.close-icon {
+  width: 20px;
+  height: 20px;
+  fill: $color-info;
+}
+.warning-icon {
+  width: 40px;
+  height: 40px;
+  fill: $color-warning;
+}
+.check-icon {
+  width: 40px;
+  height: 40px;
+  fill: $color-success;
+}
+.info-frame {
+  border: 2px dashed $color-info;
+}
+.warning-frame {
+  border: 2px dashed $color-warning;
+}
+.check-frame {
+  border: 2px dashed $color-success;
+}
+
+.info-color {
+  color: $color-info
+}
+.warning-color {
+  color: $color-warning;
+}
+.check-color {
+  color: $color-success;
+}
+.info-close-color {
+  color: $color-info;
+}
+.warning-close-color {
+  fill: $color-warning;
+}
+.check-close-color {
+  fill: $color-success;
+}
+.hidden {
+  display: none;
+}
